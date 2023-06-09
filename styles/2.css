@@ -1,0 +1,125 @@
+@media only screen and (max-width: 600px) 
+{
+    .center
+    {
+       text-align: center;
+    }
+    #prueba1
+      {
+        color: black;
+        
+      }
+    #prueba2
+      {
+        display: none;
+        color: blue;
+      }
+    #prueba3
+        {
+            display: none;
+      }
+      #box1
+      {
+        margin-top: 0;
+        width: 100%;
+        background-color:aqua ;
+        margin-bottom: 0;
+      }
+      #box2
+      {
+        width: 100%;
+        background-color: rgb(16, 134, 218);
+        margin: 0;
+      }
+      #box3
+      {
+        margin-top: 0;
+        width: 100%;
+        background-color:rgb(8, 117, 226);
+      }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 900px)
+{
+    .center
+    {
+       text-align: center;
+    }
+    #prueba1
+      {
+        display: none;
+      }
+    #prueba2
+      {
+        color: black;
+      }
+    #prueba3
+        {
+        display: none;
+      }
+      .order
+      {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+     #box1 
+      {
+      
+        width: 100%;
+        background-color:rgb(255, 0, 0) ;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      #box2
+      {
+        width: 100%;
+        background-color: rgb(215, 100, 50);
+        margin: 0;
+      }
+      #box3
+      {
+        margin:50% 0 0 0;
+        width: 100%;
+        background-color:rgb(226, 110, 8);
+      }
+    }
+    @media only screen and (min-width: 900px) 
+    {
+        .center
+        {
+           text-align: center;
+        }
+        #prueba1
+          {
+            display: none;
+          }
+        #prueba2
+          {
+            display: none;
+          }
+        #prueba3
+            {
+                color: black;
+            
+          }
+          #box1
+          {
+            margin-top: 100%;
+            width: 100%;
+            background-color:rgb(0, 255, 21) ;
+            margin-bottom: 0;
+          }
+          #box2
+          {
+            width: 100%;
+            background-color: rgb(8, 186, 2);
+            margin: 0;
+          }
+          #box3
+          {
+            margin-top: 0;
+            width: 100%;
+            background-color:rgb(19, 149, 1);
+          }
+        }
+
